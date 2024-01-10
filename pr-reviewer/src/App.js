@@ -7,7 +7,7 @@ function App() {
   const [review,setReview]=useState("");
 
   async function callOpenAIAPI(){
-    console.log("code",code)
+    console.log("code Received",code)
     const body = {
         "model": "gpt-3.5-turbo",
         "messages": [
